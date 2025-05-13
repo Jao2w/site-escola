@@ -3,8 +3,14 @@
   padding: 0;
 }
 
+@import url();
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
 .cabecalho{
-  backgroud-color: #424e61;
+  background-color: #424e61;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -16,6 +22,12 @@
   display: inline-block;
   margin: 0 16px;
   font-size: 24px;
+}
+
+.escola-imagem{
+  width: 120px;
+  height: 80px;
+  border-radius: 30%;
 }
 
 .escola-imagem{
@@ -58,9 +70,23 @@
   padding: 24px 0;
 }
 
+.escola-imagem{
+  width: 100px;
+}
 
+.estudantes-icone{
+  width: 24px;
+  padding: 4px 8px;
+}
 
+.rodape{
+  background-color: #424e61;
+ text-align: center;
+ color: white;
+ font-size: 25px;
+}
 
+.rodape-imagem{}
 
 
 
@@ -121,7 +147,7 @@
 .estudantes-todos{
   grid-template-columns: repeat(auto-fit), minmax(150px, ifr);
   padding: 0 16px;
-
+}
 
 
 }
