@@ -3,7 +3,16 @@
   padding: 0;
 }
 
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover{
+ color: bisque;
+}
 
 body{
   font-family: "Roboto", sans-serif;
@@ -86,37 +95,10 @@ body{
  font-size: 25px;
 }
 
-.rodape-imagem{}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.rodape-imagem{
+  height: 60px;
+  padding: 12px 0;
+}
 
 @media (max-width: 768px) {
   .cabecalho{
@@ -147,7 +129,5 @@ body{
 .estudantes-todos{
   grid-template-columns: repeat(auto-fit), minmax(150px, ifr);
   padding: 0 16px;
-}
-
-
+ }
 }
